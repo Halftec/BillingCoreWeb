@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Billing Core — Lightweight Billing Software</title>
+  <meta name="description" content="Billing Core — open source, lightweight billing and invoicing for small teams and developers." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand-wrap">
+        <img src="assets/logo.png" alt="Billing Core logo" class="logo" />
+        <h1 class="brand">Billing Core</h1>
+      </div>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#why">Why Choose</a>
+        <a href="#demo">Demo</a>
+        <a class="cta" href="https://github.com/Halftec/BillingCore" target="_blank" rel="noopener">View on GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h2>Simple. Fast. Open Source Billing</h2>
+          <p class="lead">Billing Core is a lightweight billing and invoicing solution built for developers and small teams. Integrate quickly, customize freely, and run on your own infrastructure.</p>
+          <p class="meta">Open source • Self hostable • Developer friendly</p>
+          <div class="actions">
+            <a class="btn primary" href="https://github.com/Halftec/BillingCore" target="_blank" rel="noopener">Get the Code</a>
+            <a class="btn ghost" href="#features">See Features</a>
+          </div>
+        </div>
+        <div class="card quick-info">
+          <h3>At a Glance</h3>
+          <ul>
+            <li><strong>Language</strong> Node.js / PHP / Laravel compatible examples</li>
+            <li><strong>Core</strong> Invoicing, clients, products, payments hooks</li>
+            <li><strong>License</strong> Open source — fork and contribute</li>
+          </ul>
+          <p class="small">Repository: <a href="https://github.com/Halftec/BillingCore" target="_blank" rel="noopener">github.com/Halftec/BillingCore</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container features">
+      <h2>Features</h2>
+      <div class="feature-grid">
+        <article class="feature">
+          <h4>Invoice Management</h4>
+          <p>Create, edit, and send invoices. Templates are simple to customize and integrate with your email or webhook flows.</p>
+        </article>
+        <article class="feature">
+          <h4>Client and Product Catalog</h4>
+          <p>Organize clients, store product/service items, and reuse line items across invoices for faster billing.</p>
+        </article>
+        <article class="feature">
+          <h4>Payment Integrations</h4>
+          <p>Webhooks and adapters let you connect to payment providers or record offline payments easily.</p>
+        </article>
+        <article class="feature">
+          <h4>API Friendly</h4>
+          <p>Designed for developers: clear endpoints, sample scripts, and straightforward data models for automation.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="why" class="why container">
+      <h2>Why Choose Billing Core</h2>
+      <div class="why-grid">
+        <div>
+          <h4>Control and Privacy</h4>
+          <p>Self host to keep customer and financial data under your control. No vendor lock‑in.</p>
+        </div>
+        <div>
+          <h4>Lightweight and Fast</h4>
+          <p>Minimal dependencies and a small codebase make it easy to deploy and maintain.</p>
+        </div>
+        <div>
+          <h4>Customizable</h4>
+          <p>Open source code means you can adapt templates, workflows, and integrations to your needs.</p>
+        </div>
+        <div>
+          <h4>Developer Friendly</h4>
+          <p>Clear structure and examples let teams integrate billing into existing systems quickly.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="demo" class="demo container">
+      <h2>Quick Demo and Usage</h2>
+      <p class="lead">Clone the repo, follow the README, and you’ll have a working billing core in minutes.</p>
+
+      <div class="code-block">
+        <pre><code>git clone https://github.com/Halftec/BillingCore.git
+cd BillingCore
+# follow the repository README for setup steps (install dependencies, configure DB, run migrations)</code></pre>
+      </div>
+
+      <h4>Integration Tips</h4>
+      <ul>
+        <li>Use the API endpoints to create invoices programmatically.</li>
+        <li>Hook payment provider webhooks to update invoice status automatically.</li>
+        <li>Customize invoice templates in the templates folder to match your brand.</li>
+      </ul>
+    </section>
+
+    <section class="get-started container">
+      <h2>Get Started</h2>
+      <p>Ready to try Billing Core? Visit the repository, open an issue, or submit a pull request.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/Halftec/BillingCore" target="_blank" rel="noopener">Open Repository</a>
+        <a class="btn ghost" href="https://github.com/Halftec/BillingCore/issues" target="_blank" rel="noopener">Report Issue</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Billing Core. Built by the community. <a href="https://github.com/Halftec/BillingCore" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
